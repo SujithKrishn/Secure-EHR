@@ -10,11 +10,11 @@ import javax.persistence.Table;
 /**
  * Entity bean with JPA annotations
  * Hibernate provides JPA implementation
- * @author pankaj
+ * @author Sujith
  *
  */
 @Entity
-@Table(name="PERSON")
+@Table(name="person")
 public class Person {
 
 	@Id
